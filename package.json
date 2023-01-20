@@ -1,0 +1,14 @@
+{
+  "name": "aluranewsletter2",
+  "version": "1.0.0",
+  "description": "Projeto feito no curso de 'Tailwind CSS: estilizando a sua página com classes utilitárias' da Alura.",
+  "main": "index.js",
+  "scripts": {
+    "build_css": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+  },
+  "author": "Otavio Henrique de Lima e Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
